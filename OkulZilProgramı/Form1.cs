@@ -20,11 +20,6 @@ namespace OkulZilProgramı
             button3.Text = "Zil Sesleri";
         }
 
-
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
