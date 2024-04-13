@@ -78,6 +78,7 @@
             maskedTextBox23 = new MaskedTextBox();
             maskedTextBox24 = new MaskedTextBox();
             zilCal = new AxWMPLib.AxWindowsMediaPlayer();
+            panel1 = new Panel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)zilCal).BeginInit();
             SuspendLayout();
@@ -163,7 +164,7 @@
             // 
             // maskedTextBox1
             // 
-            maskedTextBox1.Location = new Point(273, 137);
+            maskedTextBox1.Location = new Point(322, 97);
             maskedTextBox1.Mask = "00:00:00";
             maskedTextBox1.Name = "maskedTextBox1";
             maskedTextBox1.Size = new Size(51, 27);
@@ -187,7 +188,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 9F, FontStyle.Underline, GraphicsUnit.Point, 162);
-            label5.Location = new Point(255, 99);
+            label5.Location = new Point(304, 59);
             label5.Name = "label5";
             label5.Size = new Size(50, 20);
             label5.TabIndex = 11;
@@ -197,7 +198,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 9F, FontStyle.Underline, GraphicsUnit.Point, 162);
-            label6.Location = new Point(369, 99);
+            label6.Location = new Point(418, 59);
             label6.Name = "label6";
             label6.Size = new Size(50, 20);
             label6.TabIndex = 12;
@@ -206,7 +207,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(143, 140);
+            label7.Location = new Point(192, 100);
             label7.Name = "label7";
             label7.Size = new Size(50, 20);
             label7.TabIndex = 13;
@@ -215,7 +216,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(143, 169);
+            label8.Location = new Point(192, 129);
             label8.Name = "label8";
             label8.Size = new Size(50, 20);
             label8.TabIndex = 14;
@@ -224,7 +225,7 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(143, 201);
+            label9.Location = new Point(192, 161);
             label9.Name = "label9";
             label9.Size = new Size(50, 20);
             label9.TabIndex = 15;
@@ -233,7 +234,7 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(143, 300);
+            label10.Location = new Point(192, 260);
             label10.Name = "label10";
             label10.Size = new Size(58, 20);
             label10.TabIndex = 18;
@@ -242,7 +243,7 @@
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(143, 268);
+            label11.Location = new Point(192, 228);
             label11.Name = "label11";
             label11.Size = new Size(58, 20);
             label11.TabIndex = 17;
@@ -251,7 +252,7 @@
             // label12
             // 
             label12.AutoSize = true;
-            label12.Location = new Point(143, 235);
+            label12.Location = new Point(192, 195);
             label12.Name = "label12";
             label12.Size = new Size(58, 20);
             label12.TabIndex = 16;
@@ -260,7 +261,7 @@
             // label13
             // 
             label13.AutoSize = true;
-            label13.Location = new Point(143, 395);
+            label13.Location = new Point(192, 355);
             label13.Name = "label13";
             label13.Size = new Size(58, 20);
             label13.TabIndex = 21;
@@ -269,7 +270,7 @@
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new Point(143, 363);
+            label14.Location = new Point(192, 323);
             label14.Name = "label14";
             label14.Size = new Size(58, 20);
             label14.TabIndex = 20;
@@ -278,7 +279,7 @@
             // label15
             // 
             label15.AutoSize = true;
-            label15.Location = new Point(143, 332);
+            label15.Location = new Point(192, 292);
             label15.Name = "label15";
             label15.Size = new Size(58, 20);
             label15.TabIndex = 19;
@@ -287,7 +288,7 @@
             // label16
             // 
             label16.AutoSize = true;
-            label16.Location = new Point(143, 490);
+            label16.Location = new Point(192, 450);
             label16.Name = "label16";
             label16.Size = new Size(58, 20);
             label16.TabIndex = 24;
@@ -296,7 +297,7 @@
             // label17
             // 
             label17.AutoSize = true;
-            label17.Location = new Point(143, 458);
+            label17.Location = new Point(192, 418);
             label17.Name = "label17";
             label17.Size = new Size(58, 20);
             label17.TabIndex = 23;
@@ -305,7 +306,7 @@
             // label18
             // 
             label18.AutoSize = true;
-            label18.Location = new Point(143, 429);
+            label18.Location = new Point(192, 389);
             label18.Name = "label18";
             label18.Size = new Size(58, 20);
             label18.TabIndex = 22;
@@ -313,7 +314,7 @@
             // 
             // maskedTextBox2
             // 
-            maskedTextBox2.Location = new Point(273, 166);
+            maskedTextBox2.Location = new Point(322, 126);
             maskedTextBox2.Mask = "00:00:00";
             maskedTextBox2.Name = "maskedTextBox2";
             maskedTextBox2.Size = new Size(51, 27);
@@ -322,7 +323,7 @@
             // 
             // maskedTextBox3
             // 
-            maskedTextBox3.Location = new Point(273, 232);
+            maskedTextBox3.Location = new Point(322, 192);
             maskedTextBox3.Mask = "00:00:00";
             maskedTextBox3.Name = "maskedTextBox3";
             maskedTextBox3.Size = new Size(51, 27);
@@ -332,7 +333,7 @@
             // 
             // maskedTextBox4
             // 
-            maskedTextBox4.Location = new Point(274, 198);
+            maskedTextBox4.Location = new Point(323, 158);
             maskedTextBox4.Mask = "00:00:00";
             maskedTextBox4.Name = "maskedTextBox4";
             maskedTextBox4.Size = new Size(51, 27);
@@ -342,7 +343,7 @@
             // 
             // maskedTextBox5
             // 
-            maskedTextBox5.Location = new Point(273, 297);
+            maskedTextBox5.Location = new Point(322, 257);
             maskedTextBox5.Mask = "00:00:00";
             maskedTextBox5.Name = "maskedTextBox5";
             maskedTextBox5.Size = new Size(51, 27);
@@ -352,7 +353,7 @@
             // 
             // maskedTextBox6
             // 
-            maskedTextBox6.Location = new Point(273, 265);
+            maskedTextBox6.Location = new Point(322, 225);
             maskedTextBox6.Mask = "00:00:00";
             maskedTextBox6.Name = "maskedTextBox6";
             maskedTextBox6.Size = new Size(51, 27);
@@ -362,7 +363,7 @@
             // 
             // maskedTextBox7
             // 
-            maskedTextBox7.Location = new Point(274, 487);
+            maskedTextBox7.Location = new Point(323, 447);
             maskedTextBox7.Mask = "00:00:00";
             maskedTextBox7.Name = "maskedTextBox7";
             maskedTextBox7.Size = new Size(51, 27);
@@ -371,7 +372,7 @@
             // 
             // maskedTextBox8
             // 
-            maskedTextBox8.Location = new Point(274, 455);
+            maskedTextBox8.Location = new Point(323, 415);
             maskedTextBox8.Mask = "00:00:00";
             maskedTextBox8.Name = "maskedTextBox8";
             maskedTextBox8.Size = new Size(51, 27);
@@ -380,7 +381,7 @@
             // 
             // maskedTextBox9
             // 
-            maskedTextBox9.Location = new Point(274, 422);
+            maskedTextBox9.Location = new Point(323, 382);
             maskedTextBox9.Mask = "00:00:00";
             maskedTextBox9.Name = "maskedTextBox9";
             maskedTextBox9.Size = new Size(51, 27);
@@ -389,7 +390,7 @@
             // 
             // maskedTextBox10
             // 
-            maskedTextBox10.Location = new Point(275, 388);
+            maskedTextBox10.Location = new Point(324, 348);
             maskedTextBox10.Mask = "00:00:00";
             maskedTextBox10.Name = "maskedTextBox10";
             maskedTextBox10.Size = new Size(51, 27);
@@ -398,7 +399,7 @@
             // 
             // maskedTextBox11
             // 
-            maskedTextBox11.Location = new Point(274, 356);
+            maskedTextBox11.Location = new Point(323, 316);
             maskedTextBox11.Mask = "00:00:00";
             maskedTextBox11.Name = "maskedTextBox11";
             maskedTextBox11.Size = new Size(51, 27);
@@ -407,7 +408,7 @@
             // 
             // maskedTextBox12
             // 
-            maskedTextBox12.Location = new Point(274, 327);
+            maskedTextBox12.Location = new Point(323, 287);
             maskedTextBox12.Mask = "00:00:00";
             maskedTextBox12.Name = "maskedTextBox12";
             maskedTextBox12.Size = new Size(51, 27);
@@ -416,7 +417,7 @@
             // 
             // maskedTextBox13
             // 
-            maskedTextBox13.Location = new Point(392, 487);
+            maskedTextBox13.Location = new Point(441, 447);
             maskedTextBox13.Mask = "00:00:00";
             maskedTextBox13.Name = "maskedTextBox13";
             maskedTextBox13.Size = new Size(51, 27);
@@ -425,7 +426,7 @@
             // 
             // maskedTextBox14
             // 
-            maskedTextBox14.Location = new Point(392, 455);
+            maskedTextBox14.Location = new Point(441, 415);
             maskedTextBox14.Mask = "00:00:00";
             maskedTextBox14.Name = "maskedTextBox14";
             maskedTextBox14.Size = new Size(51, 27);
@@ -434,7 +435,7 @@
             // 
             // maskedTextBox15
             // 
-            maskedTextBox15.Location = new Point(392, 422);
+            maskedTextBox15.Location = new Point(441, 382);
             maskedTextBox15.Mask = "00:00:00";
             maskedTextBox15.Name = "maskedTextBox15";
             maskedTextBox15.Size = new Size(51, 27);
@@ -443,7 +444,7 @@
             // 
             // maskedTextBox16
             // 
-            maskedTextBox16.Location = new Point(393, 388);
+            maskedTextBox16.Location = new Point(442, 348);
             maskedTextBox16.Mask = "00:00:00";
             maskedTextBox16.Name = "maskedTextBox16";
             maskedTextBox16.Size = new Size(51, 27);
@@ -452,7 +453,7 @@
             // 
             // maskedTextBox17
             // 
-            maskedTextBox17.Location = new Point(392, 356);
+            maskedTextBox17.Location = new Point(441, 316);
             maskedTextBox17.Mask = "00:00:00";
             maskedTextBox17.Name = "maskedTextBox17";
             maskedTextBox17.Size = new Size(51, 27);
@@ -461,7 +462,7 @@
             // 
             // maskedTextBox18
             // 
-            maskedTextBox18.Location = new Point(392, 327);
+            maskedTextBox18.Location = new Point(441, 287);
             maskedTextBox18.Mask = "00:00:00";
             maskedTextBox18.Name = "maskedTextBox18";
             maskedTextBox18.Size = new Size(51, 27);
@@ -470,7 +471,7 @@
             // 
             // maskedTextBox19
             // 
-            maskedTextBox19.Location = new Point(391, 297);
+            maskedTextBox19.Location = new Point(440, 257);
             maskedTextBox19.Mask = "00:00:00";
             maskedTextBox19.Name = "maskedTextBox19";
             maskedTextBox19.Size = new Size(51, 27);
@@ -479,7 +480,7 @@
             // 
             // maskedTextBox20
             // 
-            maskedTextBox20.Location = new Point(391, 265);
+            maskedTextBox20.Location = new Point(440, 225);
             maskedTextBox20.Mask = "00:00:00";
             maskedTextBox20.Name = "maskedTextBox20";
             maskedTextBox20.Size = new Size(51, 27);
@@ -488,7 +489,7 @@
             // 
             // maskedTextBox21
             // 
-            maskedTextBox21.Location = new Point(391, 232);
+            maskedTextBox21.Location = new Point(440, 192);
             maskedTextBox21.Mask = "00:00:00";
             maskedTextBox21.Name = "maskedTextBox21";
             maskedTextBox21.Size = new Size(51, 27);
@@ -497,7 +498,7 @@
             // 
             // maskedTextBox22
             // 
-            maskedTextBox22.Location = new Point(392, 198);
+            maskedTextBox22.Location = new Point(441, 158);
             maskedTextBox22.Mask = "00:00:00";
             maskedTextBox22.Name = "maskedTextBox22";
             maskedTextBox22.Size = new Size(51, 27);
@@ -506,7 +507,7 @@
             // 
             // maskedTextBox23
             // 
-            maskedTextBox23.Location = new Point(391, 166);
+            maskedTextBox23.Location = new Point(440, 126);
             maskedTextBox23.Mask = "00:00:00";
             maskedTextBox23.Name = "maskedTextBox23";
             maskedTextBox23.Size = new Size(51, 27);
@@ -515,7 +516,7 @@
             // 
             // maskedTextBox24
             // 
-            maskedTextBox24.Location = new Point(391, 137);
+            maskedTextBox24.Location = new Point(440, 97);
             maskedTextBox24.Mask = "00:00:00";
             maskedTextBox24.Name = "maskedTextBox24";
             maskedTextBox24.Size = new Size(51, 27);
@@ -525,17 +526,26 @@
             // zilCal
             // 
             zilCal.Enabled = true;
-            zilCal.Location = new Point(143, 536);
+            zilCal.Location = new Point(408, 536);
             zilCal.Name = "zilCal";
             zilCal.OcxState = (AxHost.State)resources.GetObject("zilCal.OcxState");
             zilCal.Size = new Size(223, 52);
             zilCal.TabIndex = 48;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.ActiveCaptionText;
+            panel1.Location = new Point(135, 91);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(10, 444);
+            panel1.TabIndex = 49;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(757, 600);
+            Controls.Add(panel1);
             Controls.Add(zilCal);
             Controls.Add(maskedTextBox13);
             Controls.Add(maskedTextBox14);
@@ -658,5 +668,6 @@
         private MaskedTextBox maskedTextBox23;
         private MaskedTextBox maskedTextBox24;
         private AxWMPLib.AxWindowsMediaPlayer zilCal;
+        private Panel panel1;
     }
 }

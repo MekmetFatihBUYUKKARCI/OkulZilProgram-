@@ -33,6 +33,7 @@
             button3 = new Button();
             button4 = new Button();
             label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // button1
@@ -85,11 +86,22 @@
             label1.TabIndex = 4;
             label1.Text = "label1";
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 162);
+            label2.Location = new Point(162, 310);
+            label2.Name = "label2";
+            label2.Size = new Size(86, 32);
+            label2.TabIndex = 5;
+            label2.Text = "label2";
+            // 
             // zilSesleri
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(515, 459);
+            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(button4);
             Controls.Add(button3);
@@ -109,5 +121,6 @@
         private Button button3;
         private Button button4;
         private Label label1;
+        private Label label2;
     }
 }

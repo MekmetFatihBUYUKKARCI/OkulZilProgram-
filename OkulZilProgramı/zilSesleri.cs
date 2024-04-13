@@ -20,12 +20,13 @@ namespace OkulZilProgramı
 
         private void zilSesleri_Load(object sender, EventArgs e)
         {
-            button1.Text = "EBA_Teneffüs_Müziği_İyi_Kalite";
+            button1.Text = "EBA_Teneffüs_Müziği";
             button2.Text = "Okul_zili_hababam_sınıfı";
             button3.Text = "Okul_Zili_Öğrenci_Zil_Sesi-(Çayır_Çimen_Geze_Geze)";
             button4.Text = "Okul_Zili_Öğrenci_Zil_Sesi_(Barış_Manço_Anlıyorsun_Değil_Mi)";
 
             label1.Text = "Zil seslerinden birini seçiniz";
+            label2.Text = "";
         }
 
         string audio;
@@ -33,21 +34,28 @@ namespace OkulZilProgramı
         private void button1_Click(object sender, EventArgs e)
         {
             audio = "C:\\Users\\sbuyu\\OneDrive\\Masaüstü\\OkulZilProgramı\\OkulZilProgramı\\zilSesleri\\EBA_Teneffüs_Müziği_İyi_Kalite.mp3";
+            label2.Text = "zil sesi değiştirildi";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             audio = "C:\\Users\\sbuyu\\OneDrive\\Masaüstü\\OkulZilProgramı\\OkulZilProgramı\\zilSesleri\\Okul_zili_hababam_sınıfı.mp3";
+            label2.Text = "zil sesi değiştirildi";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             audio = "C:\\Users\\sbuyu\\OneDrive\\Masaüstü\\OkulZilProgramı\\OkulZilProgramı\\zilSesleri\\Okul_Zili_Öğrenci_Zil_Sesi-(Çayır_Çimen_Geze_Geze).mp3";
+            label2.Text = "zil sesi değiştirildi";
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             audio = "C:\\Users\\sbuyu\\OneDrive\\Masaüstü\\OkulZilProgramı\\OkulZilProgramı\\zilSesleri\\Okul_Zili_Öğrenci_Zil_Sesi_(Barış_Manço_Anlıyorsun_Değil_Mi).mp3";
+            label2.Text = "zil sesi değiştirildi";
+            System.Threading.Thread.Sleep(2000);
+            label2.Text = "";
+
         }
         
     }
