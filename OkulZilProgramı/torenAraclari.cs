@@ -28,17 +28,17 @@ namespace OkulZilProgramı
 
         private void button1_Click(object sender, EventArgs e)
         {
-            axWindowsMediaPlayer1.URL = "C:\\Users\\sbuyu\\OneDrive\\Masaüstü\\OkulZilProgramı\\OkulZilProgramı\\1dk.mp3";
+            axWindowsMediaPlayer1.URL = "1dk.mp3";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            axWindowsMediaPlayer1.URL = "C:\\Users\\sbuyu\\OneDrive\\Masaüstü\\OkulZilProgramı\\OkulZilProgramı\\2dk.mp3";
+            axWindowsMediaPlayer1.URL = "2dk.mp3";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            axWindowsMediaPlayer1.URL = "C:\\Users\\sbuyu\\OneDrive\\Masaüstü\\OkulZilProgramı\\OkulZilProgramı\\marş.mp3";
+            axWindowsMediaPlayer1.URL = "marş.mp3";
         }
     }
 }

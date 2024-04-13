@@ -136,7 +136,6 @@
             label2.Size = new Size(91, 27);
             label2.TabIndex = 5;
             label2.Text = "label2";
-            label2.Click += label2_Click;
             // 
             // label3
             // 
@@ -155,7 +154,6 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(685, 9);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(178, 172);
@@ -325,6 +323,7 @@
             textBox1.BorderStyle = BorderStyle.None;
             textBox1.Location = new Point(313, 132);
             textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
             textBox1.Size = new Size(70, 20);
             textBox1.TabIndex = 74;
             textBox1.Text = "08:28:00";
@@ -334,6 +333,7 @@
             textBox2.BorderStyle = BorderStyle.None;
             textBox2.Location = new Point(313, 161);
             textBox2.Name = "textBox2";
+            textBox2.ReadOnly = true;
             textBox2.Size = new Size(70, 20);
             textBox2.TabIndex = 75;
             textBox2.Text = "09:18:00";
@@ -343,6 +343,7 @@
             textBox3.BorderStyle = BorderStyle.None;
             textBox3.Location = new Point(313, 193);
             textBox3.Name = "textBox3";
+            textBox3.ReadOnly = true;
             textBox3.Size = new Size(70, 20);
             textBox3.TabIndex = 76;
             textBox3.Text = "10:08:00";
@@ -352,6 +353,7 @@
             textBox4.BorderStyle = BorderStyle.None;
             textBox4.Location = new Point(313, 224);
             textBox4.Name = "textBox4";
+            textBox4.ReadOnly = true;
             textBox4.Size = new Size(70, 20);
             textBox4.TabIndex = 77;
             textBox4.Text = "10:58:00";
@@ -361,6 +363,7 @@
             textBox5.BorderStyle = BorderStyle.None;
             textBox5.Location = new Point(313, 260);
             textBox5.Name = "textBox5";
+            textBox5.ReadOnly = true;
             textBox5.Size = new Size(70, 20);
             textBox5.TabIndex = 78;
             textBox5.Text = "11:48:00";
@@ -370,6 +373,7 @@
             textBox6.BorderStyle = BorderStyle.None;
             textBox6.Location = new Point(313, 292);
             textBox6.Name = "textBox6";
+            textBox6.ReadOnly = true;
             textBox6.Size = new Size(70, 20);
             textBox6.TabIndex = 79;
             textBox6.Text = "13:18:00";
@@ -379,6 +383,7 @@
             textBox7.BorderStyle = BorderStyle.None;
             textBox7.Location = new Point(313, 324);
             textBox7.Name = "textBox7";
+            textBox7.ReadOnly = true;
             textBox7.Size = new Size(70, 20);
             textBox7.TabIndex = 80;
             textBox7.Text = "14:08:00";
@@ -388,6 +393,7 @@
             textBox8.BorderStyle = BorderStyle.None;
             textBox8.Location = new Point(313, 355);
             textBox8.Name = "textBox8";
+            textBox8.ReadOnly = true;
             textBox8.Size = new Size(70, 20);
             textBox8.TabIndex = 81;
             textBox8.Text = "14:58:00";
@@ -397,6 +403,7 @@
             textBox9.BorderStyle = BorderStyle.None;
             textBox9.Location = new Point(313, 387);
             textBox9.Name = "textBox9";
+            textBox9.ReadOnly = true;
             textBox9.Size = new Size(70, 20);
             textBox9.TabIndex = 82;
             // 
@@ -405,6 +412,7 @@
             textBox10.BorderStyle = BorderStyle.None;
             textBox10.Location = new Point(313, 421);
             textBox10.Name = "textBox10";
+            textBox10.ReadOnly = true;
             textBox10.Size = new Size(70, 20);
             textBox10.TabIndex = 83;
             // 
@@ -413,6 +421,7 @@
             textBox11.BorderStyle = BorderStyle.None;
             textBox11.Location = new Point(313, 450);
             textBox11.Name = "textBox11";
+            textBox11.ReadOnly = true;
             textBox11.Size = new Size(70, 20);
             textBox11.TabIndex = 84;
             // 
@@ -421,6 +430,7 @@
             textBox12.BorderStyle = BorderStyle.None;
             textBox12.Location = new Point(313, 478);
             textBox12.Name = "textBox12";
+            textBox12.ReadOnly = true;
             textBox12.Size = new Size(70, 20);
             textBox12.TabIndex = 85;
             // 
@@ -429,6 +439,7 @@
             textBox13.BorderStyle = BorderStyle.None;
             textBox13.Location = new Point(444, 475);
             textBox13.Name = "textBox13";
+            textBox13.ReadOnly = true;
             textBox13.Size = new Size(70, 20);
             textBox13.TabIndex = 97;
             // 
@@ -437,6 +448,7 @@
             textBox14.BorderStyle = BorderStyle.None;
             textBox14.Location = new Point(444, 447);
             textBox14.Name = "textBox14";
+            textBox14.ReadOnly = true;
             textBox14.Size = new Size(70, 20);
             textBox14.TabIndex = 96;
             // 
@@ -445,6 +457,7 @@
             textBox15.BorderStyle = BorderStyle.None;
             textBox15.Location = new Point(444, 418);
             textBox15.Name = "textBox15";
+            textBox15.ReadOnly = true;
             textBox15.Size = new Size(70, 20);
             textBox15.TabIndex = 95;
             // 
@@ -453,6 +466,7 @@
             textBox16.BorderStyle = BorderStyle.None;
             textBox16.Location = new Point(444, 384);
             textBox16.Name = "textBox16";
+            textBox16.ReadOnly = true;
             textBox16.Size = new Size(70, 20);
             textBox16.TabIndex = 94;
             // 
@@ -461,6 +475,7 @@
             textBox17.BorderStyle = BorderStyle.None;
             textBox17.Location = new Point(444, 352);
             textBox17.Name = "textBox17";
+            textBox17.ReadOnly = true;
             textBox17.Size = new Size(70, 20);
             textBox17.TabIndex = 93;
             textBox17.Text = "15:00:00";
@@ -470,6 +485,7 @@
             textBox18.BorderStyle = BorderStyle.None;
             textBox18.Location = new Point(444, 321);
             textBox18.Name = "textBox18";
+            textBox18.ReadOnly = true;
             textBox18.Size = new Size(70, 20);
             textBox18.TabIndex = 92;
             textBox18.Text = "14:10:00";
@@ -479,6 +495,7 @@
             textBox19.BorderStyle = BorderStyle.None;
             textBox19.Location = new Point(444, 289);
             textBox19.Name = "textBox19";
+            textBox19.ReadOnly = true;
             textBox19.Size = new Size(70, 20);
             textBox19.TabIndex = 91;
             textBox19.Text = "13:20:00";
@@ -488,6 +505,7 @@
             textBox20.BorderStyle = BorderStyle.None;
             textBox20.Location = new Point(444, 257);
             textBox20.Name = "textBox20";
+            textBox20.ReadOnly = true;
             textBox20.Size = new Size(70, 20);
             textBox20.TabIndex = 90;
             textBox20.Text = "11:50:00";
@@ -497,6 +515,7 @@
             textBox21.BorderStyle = BorderStyle.None;
             textBox21.Location = new Point(444, 224);
             textBox21.Name = "textBox21";
+            textBox21.ReadOnly = true;
             textBox21.Size = new Size(70, 20);
             textBox21.TabIndex = 89;
             textBox21.Text = "11:00:00";
@@ -506,6 +525,7 @@
             textBox22.BorderStyle = BorderStyle.None;
             textBox22.Location = new Point(444, 190);
             textBox22.Name = "textBox22";
+            textBox22.ReadOnly = true;
             textBox22.Size = new Size(70, 20);
             textBox22.TabIndex = 88;
             textBox22.Text = "10:10:00";
@@ -515,6 +535,7 @@
             textBox23.BorderStyle = BorderStyle.None;
             textBox23.Location = new Point(444, 158);
             textBox23.Name = "textBox23";
+            textBox23.ReadOnly = true;
             textBox23.Size = new Size(70, 20);
             textBox23.TabIndex = 87;
             textBox23.Text = "09:20:00";
@@ -524,6 +545,7 @@
             textBox24.BorderStyle = BorderStyle.None;
             textBox24.Location = new Point(444, 129);
             textBox24.Name = "textBox24";
+            textBox24.ReadOnly = true;
             textBox24.Size = new Size(70, 20);
             textBox24.TabIndex = 86;
             textBox24.Text = "08:30:00";
@@ -532,7 +554,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Underline, GraphicsUnit.Point, 162);
-            label4.Location = new Point(548, 91);
+            label4.Location = new Point(554, 91);
             label4.Name = "label4";
             label4.Size = new Size(50, 20);
             label4.TabIndex = 98;
@@ -543,6 +565,7 @@
             textBox25.BorderStyle = BorderStyle.None;
             textBox25.Location = new Point(565, 475);
             textBox25.Name = "textBox25";
+            textBox25.ReadOnly = true;
             textBox25.Size = new Size(70, 20);
             textBox25.TabIndex = 110;
             // 
@@ -551,6 +574,7 @@
             textBox26.BorderStyle = BorderStyle.None;
             textBox26.Location = new Point(565, 447);
             textBox26.Name = "textBox26";
+            textBox26.ReadOnly = true;
             textBox26.Size = new Size(70, 20);
             textBox26.TabIndex = 109;
             // 
@@ -559,6 +583,7 @@
             textBox27.BorderStyle = BorderStyle.None;
             textBox27.Location = new Point(565, 418);
             textBox27.Name = "textBox27";
+            textBox27.ReadOnly = true;
             textBox27.Size = new Size(70, 20);
             textBox27.TabIndex = 108;
             // 
@@ -567,6 +592,7 @@
             textBox28.BorderStyle = BorderStyle.None;
             textBox28.Location = new Point(565, 384);
             textBox28.Name = "textBox28";
+            textBox28.ReadOnly = true;
             textBox28.Size = new Size(70, 20);
             textBox28.TabIndex = 107;
             // 
@@ -575,6 +601,7 @@
             textBox29.BorderStyle = BorderStyle.None;
             textBox29.Location = new Point(565, 352);
             textBox29.Name = "textBox29";
+            textBox29.ReadOnly = true;
             textBox29.Size = new Size(70, 20);
             textBox29.TabIndex = 106;
             textBox29.Text = "15:40:00";
@@ -584,6 +611,7 @@
             textBox30.BorderStyle = BorderStyle.None;
             textBox30.Location = new Point(565, 321);
             textBox30.Name = "textBox30";
+            textBox30.ReadOnly = true;
             textBox30.Size = new Size(70, 20);
             textBox30.TabIndex = 105;
             textBox30.Text = "14:40:00";
@@ -593,6 +621,7 @@
             textBox31.BorderStyle = BorderStyle.None;
             textBox31.Location = new Point(565, 289);
             textBox31.Name = "textBox31";
+            textBox31.ReadOnly = true;
             textBox31.Size = new Size(70, 20);
             textBox31.TabIndex = 104;
             textBox31.Text = "14:00:00";
@@ -602,6 +631,7 @@
             textBox32.BorderStyle = BorderStyle.None;
             textBox32.Location = new Point(565, 257);
             textBox32.Name = "textBox32";
+            textBox32.ReadOnly = true;
             textBox32.Size = new Size(70, 20);
             textBox32.TabIndex = 103;
             textBox32.Text = "12:30:00";
@@ -611,6 +641,7 @@
             textBox33.BorderStyle = BorderStyle.None;
             textBox33.Location = new Point(565, 224);
             textBox33.Name = "textBox33";
+            textBox33.ReadOnly = true;
             textBox33.Size = new Size(70, 20);
             textBox33.TabIndex = 102;
             textBox33.Text = "11:40:00";
@@ -620,6 +651,7 @@
             textBox34.BorderStyle = BorderStyle.None;
             textBox34.Location = new Point(565, 190);
             textBox34.Name = "textBox34";
+            textBox34.ReadOnly = true;
             textBox34.Size = new Size(70, 20);
             textBox34.TabIndex = 101;
             textBox34.Text = "10:50:00";
@@ -629,6 +661,7 @@
             textBox35.BorderStyle = BorderStyle.None;
             textBox35.Location = new Point(565, 158);
             textBox35.Name = "textBox35";
+            textBox35.ReadOnly = true;
             textBox35.Size = new Size(70, 20);
             textBox35.TabIndex = 100;
             textBox35.Text = "10:00:00";
@@ -638,6 +671,7 @@
             textBox36.BorderStyle = BorderStyle.None;
             textBox36.Location = new Point(565, 129);
             textBox36.Name = "textBox36";
+            textBox36.ReadOnly = true;
             textBox36.Size = new Size(70, 20);
             textBox36.TabIndex = 99;
             textBox36.Text = "09:10:00";

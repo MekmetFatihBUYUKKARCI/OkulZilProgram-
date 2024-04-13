@@ -15,6 +15,11 @@ namespace OkulZilProgramı
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            string imagePath = "alafen.jpeg";
+            Image image = Image.FromFile(imagePath);
+            pictureBox1.Image = image;
+
+
             label1.Text = "Mehmet Fatih BÜYÜKKARCI - Hasan DUYAR";
             label4.Text = "Tenefüs zili";
             label5.Text = "Öğrenci zili";
@@ -37,67 +42,15 @@ namespace OkulZilProgramı
             label17.Text = "Ders11: ";
             label18.Text = "Ders10: ";
 
-
-            textBox1.ReadOnly = true;
-            textBox2.ReadOnly = true;
-            textBox3.ReadOnly = true;
-            textBox4.ReadOnly = true;
-            textBox5.ReadOnly = true;
-            textBox6.ReadOnly = true;
-            textBox7.ReadOnly = true;
-            textBox8.ReadOnly = true;
-            textBox9.ReadOnly = true;
-            textBox10.ReadOnly = true;
-            textBox11.ReadOnly = true;
-            textBox12.ReadOnly = true;
-            textBox13.ReadOnly = true;
-            textBox14.ReadOnly = true;
-            textBox15.ReadOnly = true;
-            textBox16.ReadOnly = true;
-            textBox17.ReadOnly = true;
-            textBox18.ReadOnly = true;
-            textBox19.ReadOnly = true;
-            textBox20.ReadOnly = true;
-            textBox21.ReadOnly = true;
-            textBox22.ReadOnly = true;
-            textBox23.ReadOnly = true;
-            textBox24.ReadOnly = true;
-            textBox25.ReadOnly = true;
-            textBox26.ReadOnly = true;
-            textBox27.ReadOnly = true;
-            textBox28.ReadOnly = true;
-            textBox29.ReadOnly = true;
-            textBox30.ReadOnly = true;
-            textBox31.ReadOnly = true;
-            textBox32.ReadOnly = true;
-            textBox33.ReadOnly = true;
-            textBox34.ReadOnly = true;
-            textBox35.ReadOnly = true;
-            textBox36.ReadOnly = true;
-
-
-
+            
 
         }
 
-
-
-
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         torenAraclari TorenAraclari = new torenAraclari();
         private void button2_Click(object sender, EventArgs e)
         {
             TorenAraclari.Show();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -251,6 +204,8 @@ namespace OkulZilProgramı
             {
                 zilCal.URL = ses;
             }
+
+
         }
 
         private void button4_Click_1(object sender, EventArgs e)
@@ -293,8 +248,8 @@ namespace OkulZilProgramı
             textBox36.ReadOnly = true;
 
 
-            MessageBox.Show("Kaydedildi");
-
+            MessageBox.Show("Kaydedildi", "Dosya Kayıt İslemi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
             StreamWriter ogrenciDers1 = new StreamWriter("ogrenciDers1.txt"); ogrenciDers1.WriteLine(textBox1.Text); ogrenciDers1.Close();
             StreamWriter ogrenciDers2 = new StreamWriter("ogrenciDers2.txt"); ogrenciDers2.WriteLine(textBox2.Text); ogrenciDers2.Close();
             StreamWriter ogrenciDers3 = new StreamWriter("ogrenciDers3.txt"); ogrenciDers3.WriteLine(textBox3.Text); ogrenciDers3.Close();
@@ -456,23 +411,5 @@ namespace OkulZilProgramı
             textBox36.BorderStyle = BorderStyle.Fixed3D;
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
-        }
-
-        private void maskedTextBox4_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-        }
     }
 }
