@@ -37,6 +37,47 @@ namespace OkulZilProgramı
             label17.Text = "Ders11: ";
             label18.Text = "Ders10: ";
 
+
+            textBox1.ReadOnly = true;
+            textBox2.ReadOnly = true;
+            textBox3.ReadOnly = true;
+            textBox4.ReadOnly = true;
+            textBox5.ReadOnly = true;
+            textBox6.ReadOnly = true;
+            textBox7.ReadOnly = true;
+            textBox8.ReadOnly = true;
+            textBox9.ReadOnly = true;
+            textBox10.ReadOnly = true;
+            textBox11.ReadOnly = true;
+            textBox12.ReadOnly = true;
+            textBox13.ReadOnly = true;
+            textBox14.ReadOnly = true;
+            textBox15.ReadOnly = true;
+            textBox16.ReadOnly = true;
+            textBox17.ReadOnly = true;
+            textBox18.ReadOnly = true;
+            textBox19.ReadOnly = true;
+            textBox20.ReadOnly = true;
+            textBox21.ReadOnly = true;
+            textBox22.ReadOnly = true;
+            textBox23.ReadOnly = true;
+            textBox24.ReadOnly = true;
+            textBox25.ReadOnly = true;
+            textBox26.ReadOnly = true;
+            textBox27.ReadOnly = true;
+            textBox28.ReadOnly = true;
+            textBox29.ReadOnly = true;
+            textBox30.ReadOnly = true;
+            textBox31.ReadOnly = true;
+            textBox32.ReadOnly = true;
+            textBox33.ReadOnly = true;
+            textBox34.ReadOnly = true;
+            textBox35.ReadOnly = true;
+            textBox36.ReadOnly = true;
+
+
+
+
         }
 
 
@@ -214,7 +255,89 @@ namespace OkulZilProgramı
 
         private void button4_Click_1(object sender, EventArgs e)
         {
+            textBox1.ReadOnly = true;
+            textBox2.ReadOnly = true;
+            textBox3.ReadOnly = true;
+            textBox4.ReadOnly = true;
+            textBox5.ReadOnly = true;
+            textBox6.ReadOnly = true;
+            textBox7.ReadOnly = true;
+            textBox8.ReadOnly = true;
+            textBox9.ReadOnly = true;
+            textBox10.ReadOnly = true;
+            textBox11.ReadOnly = true;
+            textBox12.ReadOnly = true;
+            textBox13.ReadOnly = true;
+            textBox14.ReadOnly = true;
+            textBox15.ReadOnly = true;
+            textBox16.ReadOnly = true;
+            textBox17.ReadOnly = true;
+            textBox18.ReadOnly = true;
+            textBox19.ReadOnly = true;
+            textBox20.ReadOnly = true;
+            textBox21.ReadOnly = true;
+            textBox22.ReadOnly = true;
+            textBox23.ReadOnly = true;
+            textBox24.ReadOnly = true;
+            textBox25.ReadOnly = true;
+            textBox26.ReadOnly = true;
+            textBox27.ReadOnly = true;
+            textBox28.ReadOnly = true;
+            textBox29.ReadOnly = true;
+            textBox30.ReadOnly = true;
+            textBox31.ReadOnly = true;
+            textBox32.ReadOnly = true;
+            textBox33.ReadOnly = true;
+            textBox34.ReadOnly = true;
+            textBox35.ReadOnly = true;
+            textBox36.ReadOnly = true;
+
+
             MessageBox.Show("Kaydedildi");
+
+            StreamWriter ogrenciDers1 = new StreamWriter("ogrenciDers1.txt"); ogrenciDers1.WriteLine(textBox1.Text); ogrenciDers1.Close();
+            StreamWriter ogrenciDers2 = new StreamWriter("ogrenciDers2.txt"); ogrenciDers2.WriteLine(textBox2.Text); ogrenciDers2.Close();
+            StreamWriter ogrenciDers3 = new StreamWriter("ogrenciDers3.txt"); ogrenciDers3.WriteLine(textBox3.Text); ogrenciDers3.Close();
+            StreamWriter ogrenciDers4 = new StreamWriter("ogrenciDers4.txt"); ogrenciDers4.WriteLine(textBox4.Text); ogrenciDers4.Close();
+            StreamWriter ogrenciDers5 = new StreamWriter("ogrenciDers5.txt"); ogrenciDers5.WriteLine(textBox5.Text); ogrenciDers5.Close();
+            StreamWriter ogrenciDers6 = new StreamWriter("ogrenciDers6.txt"); ogrenciDers6.WriteLine(textBox6.Text); ogrenciDers6.Close();
+            StreamWriter ogrenciDers7 = new StreamWriter("ogrenciDers7.txt"); ogrenciDers7.WriteLine(textBox7.Text); ogrenciDers7.Close();
+            StreamWriter ogrenciDers8 = new StreamWriter("ogrenciDers8.txt"); ogrenciDers8.WriteLine(textBox8.Text); ogrenciDers8.Close();
+            StreamWriter ogrenciDers9 = new StreamWriter("ogrenciDers9.txt"); ogrenciDers9.WriteLine(textBox9.Text); ogrenciDers9.Close();
+            StreamWriter ogrenciDers10 = new StreamWriter("ogrenciDers10.txt"); ogrenciDers10.WriteLine(textBox10.Text); ogrenciDers10.Close();
+            StreamWriter ogrenciDers11 = new StreamWriter("ogrenciDers11.txt"); ogrenciDers11.WriteLine(textBox11.Text); ogrenciDers11.Close();
+            StreamWriter ogrenciDers12 = new StreamWriter("ogrenciDers12.txt"); ogrenciDers12.WriteLine(textBox12.Text); ogrenciDers12.Close();
+
+
+            StreamWriter ogretmenDers1 = new StreamWriter("ogretmenDers1.txt"); ogretmenDers1.WriteLine(textBox24.Text); ogretmenDers1.Close();
+            StreamWriter ogretmenDers2 = new StreamWriter("ogretmenDers2.txt"); ogretmenDers2.WriteLine(textBox23.Text); ogretmenDers2.Close();
+            StreamWriter ogretmenDers3 = new StreamWriter("ogretmenDers3.txt"); ogretmenDers3.WriteLine(textBox22.Text); ogretmenDers3.Close();
+            StreamWriter ogretmenDers4 = new StreamWriter("ogretmenDers4.txt"); ogretmenDers4.WriteLine(textBox21.Text); ogretmenDers4.Close();
+            StreamWriter ogretmenDers5 = new StreamWriter("ogretmenDers5.txt"); ogretmenDers5.WriteLine(textBox20.Text); ogretmenDers5.Close();
+            StreamWriter ogretmenDers6 = new StreamWriter("ogretmenDers6.txt"); ogretmenDers6.WriteLine(textBox19.Text); ogretmenDers6.Close();
+            StreamWriter ogretmenDers7 = new StreamWriter("ogretmenDers7.txt"); ogretmenDers7.WriteLine(textBox18.Text); ogretmenDers7.Close();
+            StreamWriter ogretmenDers8 = new StreamWriter("ogretmenDers8.txt"); ogretmenDers8.WriteLine(textBox17.Text); ogretmenDers8.Close();
+            StreamWriter ogretmenDers9 = new StreamWriter("ogretmenDers9.txt"); ogretmenDers9.WriteLine(textBox16.Text); ogretmenDers9.Close();
+            StreamWriter ogretmenDers10 = new StreamWriter("ogretmenDers10.txt"); ogretmenDers10.WriteLine(textBox15.Text); ogretmenDers10.Close();
+            StreamWriter ogretmenDers11 = new StreamWriter("ogretmenDers11.txt"); ogretmenDers11.WriteLine(textBox14.Text); ogretmenDers11.Close();
+            StreamWriter ogretmenDers12 = new StreamWriter("ogretmenDers12.txt"); ogretmenDers12.WriteLine(textBox13.Text); ogretmenDers12.Close();
+
+
+            StreamWriter tenefusDers1 = new StreamWriter("tenefusDers1.txt"); tenefusDers1.WriteLine(textBox36.Text); tenefusDers1.Close();
+            StreamWriter tenefusDers2 = new StreamWriter("tenefusDers2.txt"); tenefusDers2.WriteLine(textBox35.Text); tenefusDers2.Close();
+            StreamWriter tenefusDers3 = new StreamWriter("tenefusDers3.txt"); tenefusDers3.WriteLine(textBox34.Text); tenefusDers3.Close();
+            StreamWriter tenefusDers4 = new StreamWriter("tenefusDers4.txt"); tenefusDers4.WriteLine(textBox33.Text); tenefusDers4.Close();
+            StreamWriter tenefusDers5 = new StreamWriter("tenefusDers5.txt"); tenefusDers5.WriteLine(textBox32.Text); tenefusDers5.Close();
+            StreamWriter tenefusDers6 = new StreamWriter("tenefusDers6.txt"); tenefusDers6.WriteLine(textBox31.Text); tenefusDers6.Close();
+            StreamWriter tenefusDers7 = new StreamWriter("tenefusDers7.txt"); tenefusDers7.WriteLine(textBox30.Text); tenefusDers7.Close();
+            StreamWriter tenefusDers8 = new StreamWriter("tenefusDers8.txt"); tenefusDers8.WriteLine(textBox29.Text); tenefusDers8.Close();
+            StreamWriter tenefusDers9 = new StreamWriter("tenefusDers9.txt"); tenefusDers9.WriteLine(textBox28.Text); tenefusDers9.Close();
+            StreamWriter tenefusDers10 = new StreamWriter("tenefusDers10.txt"); tenefusDers10.WriteLine(textBox27.Text); tenefusDers10.Close();
+            StreamWriter tenefusDers11 = new StreamWriter("tenefusDers11.txt"); tenefusDers11.WriteLine(textBox26.Text); tenefusDers11.Close();
+            StreamWriter tenefusDers12 = new StreamWriter("tenefusDers12.txt"); tenefusDers12.WriteLine(textBox25.Text); tenefusDers12.Close();
+
+
+
 
             textBox1.BorderStyle = BorderStyle.None;
             textBox2.BorderStyle = BorderStyle.None;
@@ -257,6 +380,43 @@ namespace OkulZilProgramı
         private void button1_Click(object sender, EventArgs e)
         {
             button4.Text = "Kaydet";
+
+            textBox1.ReadOnly = false;
+            textBox2.ReadOnly = false;
+            textBox3.ReadOnly = false;
+            textBox4.ReadOnly = false;
+            textBox5.ReadOnly = false;
+            textBox6.ReadOnly = false;
+            textBox7.ReadOnly = false;
+            textBox8.ReadOnly = false;
+            textBox9.ReadOnly = false;
+            textBox10.ReadOnly = false;
+            textBox11.ReadOnly = false;
+            textBox12.ReadOnly = false;
+            textBox13.ReadOnly = false;
+            textBox14.ReadOnly = false;
+            textBox15.ReadOnly = false;
+            textBox16.ReadOnly = false;
+            textBox17.ReadOnly = false;
+            textBox18.ReadOnly = false;
+            textBox19.ReadOnly = false;
+            textBox20.ReadOnly = false;
+            textBox21.ReadOnly = false;
+            textBox22.ReadOnly = false;
+            textBox23.ReadOnly = false;
+            textBox24.ReadOnly = false;
+            textBox25.ReadOnly = false;
+            textBox26.ReadOnly = false;
+            textBox27.ReadOnly = false;
+            textBox28.ReadOnly = false;
+            textBox29.ReadOnly = false;
+            textBox30.ReadOnly = false;
+            textBox31.ReadOnly = false;
+            textBox32.ReadOnly = false;
+            textBox33.ReadOnly = false;
+            textBox34.ReadOnly = false;
+            textBox35.ReadOnly = false;
+            textBox36.ReadOnly = false;
 
             textBox1.BorderStyle = BorderStyle.Fixed3D;
             textBox2.BorderStyle = BorderStyle.Fixed3D;
