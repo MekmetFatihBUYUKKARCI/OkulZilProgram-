@@ -16,12 +16,12 @@ namespace OkulZilProgramı
         private void Form1_Load(object sender, EventArgs e)
         {
             label1.Text = "Mehmet Fatih BÜYÜKKARCI - Hasan DUYAR";
+            label4.Text = "Tenefüs zili";
             label5.Text = "Öğrenci zili";
             label6.Text = "Öğretmen zili";
 
             button1.Text = "Düzenle";
             button2.Text = "Tören Araçları";
-            button3.Text = "Zil Sesleri";
             button4.Text = "Kaydet";
 
             label7.Text = "Ders1: ";
@@ -64,99 +64,149 @@ namespace OkulZilProgramı
             label2.Text = DateTime.Now.ToLongTimeString();
             label3.Text = DateTime.Now.ToLongDateString();
 
-            if (maskedTextBox1.Text == label2.Text)
+            ses = "C:\\Users\\sbuyu\\OneDrive\\Masaüstü\\OkulZilProgramı\\OkulZilProgramı\\zilSesleri\\Okul_Zili_Öğrenci_Zil_Sesi-(Çayır_Çimen_Geze_Geze).mp3";
+
+            if (textBox1.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox2.Text == label2.Text)
+            if (textBox2.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox3.Text == label2.Text)
+            if (textBox3.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox4.Text == label2.Text)
+            if (textBox4.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox5.Text == label2.Text)
+            if (textBox5.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox6.Text == label2.Text)
+            if (textBox6.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox7.Text == label2.Text)
+            if (textBox7.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox8.Text == label2.Text)
+            if (textBox8.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox9.Text == label2.Text)
+            if (textBox9.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox10.Text == label2.Text)
+            if (textBox10.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox11.Text == label2.Text)
+            if (textBox11.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox12.Text == label2.Text)
+            if (textBox12.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox13.Text == label2.Text)
+            if (textBox13.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox14.Text == label2.Text)
+            if (textBox14.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox15.Text == label2.Text)
+            if (textBox15.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox16.Text == label2.Text)
+            if (textBox16.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox17.Text == label2.Text)
+            if (textBox17.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox18.Text == label2.Text)
+            if (textBox18.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox19.Text == label2.Text)
+            if (textBox19.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox20.Text == label2.Text)
+            if (textBox20.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox21.Text == label2.Text)
+            if (textBox21.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox22.Text == label2.Text)
+            if (textBox22.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox23.Text == label2.Text)
+            if (textBox23.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (maskedTextBox24.Text == label2.Text)
+            if (textBox24.Text == label2.Text)
+            {
+                zilCal.URL = ses;
+            }
+            if (textBox25.Text == label2.Text)
+            {
+                zilCal.URL = ses;
+            }
+            if (textBox26.Text == label2.Text)
+            {
+                zilCal.URL = ses;
+            }
+            if (textBox27.Text == label2.Text)
+            {
+                zilCal.URL = ses;
+            }
+            if (textBox28.Text == label2.Text)
+            {
+                zilCal.URL = ses;
+            }
+            if (textBox29.Text == label2.Text)
+            {
+                zilCal.URL = ses;
+            }
+            if (textBox30.Text == label2.Text)
+            {
+                zilCal.URL = ses;
+            }
+            if (textBox31.Text == label2.Text)
+            {
+                zilCal.URL = ses;
+            }
+            if (textBox32.Text == label2.Text)
+            {
+                zilCal.URL = ses;
+            }
+            if (textBox33.Text == label2.Text)
+            {
+                zilCal.URL = ses;
+            }
+            if (textBox34.Text == label2.Text)
+            {
+                zilCal.URL = ses;
+            }
+            if (textBox35.Text == label2.Text)
+            {
+                zilCal.URL = ses;
+            }
+            if (textBox36.Text == label2.Text)
             {
                 zilCal.URL = ses;
             }
@@ -164,12 +214,86 @@ namespace OkulZilProgramı
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            button4.Text = "Kaydedildi";
+            MessageBox.Show("Kaydedildi");
+
+            textBox1.BorderStyle = BorderStyle.None;
+            textBox2.BorderStyle = BorderStyle.None;
+            textBox3.BorderStyle = BorderStyle.None;
+            textBox4.BorderStyle = BorderStyle.None;
+            textBox5.BorderStyle = BorderStyle.None;
+            textBox6.BorderStyle = BorderStyle.None;
+            textBox7.BorderStyle = BorderStyle.None;
+            textBox8.BorderStyle = BorderStyle.None;
+            textBox9.BorderStyle = BorderStyle.None;
+            textBox10.BorderStyle = BorderStyle.None;
+            textBox11.BorderStyle = BorderStyle.None;
+            textBox12.BorderStyle = BorderStyle.None;
+            textBox13.BorderStyle = BorderStyle.None;
+            textBox14.BorderStyle = BorderStyle.None;
+            textBox15.BorderStyle = BorderStyle.None;
+            textBox16.BorderStyle = BorderStyle.None;
+            textBox17.BorderStyle = BorderStyle.None;
+            textBox18.BorderStyle = BorderStyle.None;
+            textBox19.BorderStyle = BorderStyle.None;
+            textBox20.BorderStyle = BorderStyle.None;
+            textBox21.BorderStyle = BorderStyle.None;
+            textBox22.BorderStyle = BorderStyle.None;
+            textBox23.BorderStyle = BorderStyle.None;
+            textBox24.BorderStyle = BorderStyle.None;
+            textBox25.BorderStyle = BorderStyle.None;
+            textBox26.BorderStyle = BorderStyle.None;
+            textBox27.BorderStyle = BorderStyle.None;
+            textBox28.BorderStyle = BorderStyle.None;
+            textBox29.BorderStyle = BorderStyle.None;
+            textBox30.BorderStyle = BorderStyle.None;
+            textBox31.BorderStyle = BorderStyle.None;
+            textBox32.BorderStyle = BorderStyle.None;
+            textBox33.BorderStyle = BorderStyle.None;
+            textBox34.BorderStyle = BorderStyle.None;
+            textBox35.BorderStyle = BorderStyle.None;
+            textBox36.BorderStyle = BorderStyle.None;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             button4.Text = "Kaydet";
+
+            textBox1.BorderStyle = BorderStyle.Fixed3D;
+            textBox2.BorderStyle = BorderStyle.Fixed3D;
+            textBox3.BorderStyle = BorderStyle.Fixed3D;
+            textBox4.BorderStyle = BorderStyle.Fixed3D;
+            textBox5.BorderStyle = BorderStyle.Fixed3D;
+            textBox6.BorderStyle = BorderStyle.Fixed3D;
+            textBox7.BorderStyle = BorderStyle.Fixed3D;
+            textBox8.BorderStyle = BorderStyle.Fixed3D;
+            textBox9.BorderStyle = BorderStyle.Fixed3D;
+            textBox10.BorderStyle = BorderStyle.Fixed3D;
+            textBox11.BorderStyle = BorderStyle.Fixed3D;
+            textBox12.BorderStyle = BorderStyle.Fixed3D;
+            textBox13.BorderStyle = BorderStyle.Fixed3D;
+            textBox14.BorderStyle = BorderStyle.Fixed3D;
+            textBox15.BorderStyle = BorderStyle.Fixed3D;
+            textBox16.BorderStyle = BorderStyle.Fixed3D;
+            textBox17.BorderStyle = BorderStyle.Fixed3D;
+            textBox18.BorderStyle = BorderStyle.Fixed3D;
+            textBox19.BorderStyle = BorderStyle.Fixed3D;
+            textBox20.BorderStyle = BorderStyle.Fixed3D;
+            textBox21.BorderStyle = BorderStyle.Fixed3D;
+            textBox22.BorderStyle = BorderStyle.Fixed3D;
+            textBox23.BorderStyle = BorderStyle.Fixed3D;
+            textBox24.BorderStyle = BorderStyle.Fixed3D;
+            textBox25.BorderStyle = BorderStyle.Fixed3D;
+            textBox26.BorderStyle = BorderStyle.Fixed3D;
+            textBox27.BorderStyle = BorderStyle.Fixed3D;
+            textBox28.BorderStyle = BorderStyle.Fixed3D;
+            textBox29.BorderStyle = BorderStyle.Fixed3D;
+            textBox30.BorderStyle = BorderStyle.Fixed3D;
+            textBox31.BorderStyle = BorderStyle.Fixed3D;
+            textBox32.BorderStyle = BorderStyle.Fixed3D;
+            textBox33.BorderStyle = BorderStyle.Fixed3D;
+            textBox34.BorderStyle = BorderStyle.Fixed3D;
+            textBox35.BorderStyle = BorderStyle.Fixed3D;
+            textBox36.BorderStyle = BorderStyle.Fixed3D;
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -187,10 +311,8 @@ namespace OkulZilProgramı
 
         }
 
-        zilSesleri ZilSesleri = new zilSesleri();
         private void button3_Click(object sender, EventArgs e)
         {
-            ZilSesleri.Show();
         }
     }
 }
