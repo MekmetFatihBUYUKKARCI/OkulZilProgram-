@@ -3,6 +3,9 @@ namespace OkulZilProgramı
     public partial class Form1 : Form
     {
         string ses;
+        string o1, o2, o3, o4, o5, o6, o7, o8, o9, o10, o11, o12;
+        string O1, O2, O3, O4, O5, O6, O7, O8, O9, O10, O11, O12;
+        string t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12;
         public Form1()
         {
             InitializeComponent();
@@ -42,7 +45,49 @@ namespace OkulZilProgramı
             label17.Text = "Ders11: ";
             label18.Text = "Ders10: ";
 
-            
+
+            //program başladığında txt dosyalarındaki veriyi textBoxlara aktarma
+            FileStream ogrenciDers_1 = new FileStream("ogrenciDers1.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__1 = new StreamReader(ogrenciDers_1); o1 = ogrenciDers__1.ReadLine(); ogrenciDers__1.Close();
+            FileStream ogrenciDers_2 = new FileStream("ogrenciDers2.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__2 = new StreamReader(ogrenciDers_2); o2 = ogrenciDers__2.ReadLine(); ogrenciDers__2.Close();
+            FileStream ogrenciDers_3 = new FileStream("ogrenciDers3.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__3 = new StreamReader(ogrenciDers_3); o3 = ogrenciDers__3.ReadLine(); ogrenciDers__3.Close();
+            FileStream ogrenciDers_4 = new FileStream("ogrenciDers4.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__4 = new StreamReader(ogrenciDers_4); o4 = ogrenciDers__4.ReadLine(); ogrenciDers__4.Close();
+            FileStream ogrenciDers_5 = new FileStream("ogrenciDers5.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__5 = new StreamReader(ogrenciDers_5); o5 = ogrenciDers__5.ReadLine(); ogrenciDers__5.Close();
+            FileStream ogrenciDers_6 = new FileStream("ogrenciDers6.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__6 = new StreamReader(ogrenciDers_6); o6 = ogrenciDers__6.ReadLine(); ogrenciDers__6.Close();
+            FileStream ogrenciDers_7 = new FileStream("ogrenciDers7.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__7 = new StreamReader(ogrenciDers_7); o7 = ogrenciDers__7.ReadLine(); ogrenciDers__7.Close();
+            FileStream ogrenciDers_8 = new FileStream("ogrenciDers8.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__8 = new StreamReader(ogrenciDers_8); o8 = ogrenciDers__8.ReadLine(); ogrenciDers__8.Close();
+            FileStream ogrenciDers_9 = new FileStream("ogrenciDers9.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__9 = new StreamReader(ogrenciDers_9); o9 = ogrenciDers__9.ReadLine(); ogrenciDers__9.Close();
+            FileStream ogrenciDers_10 = new FileStream("ogrenciDers10.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__10 = new StreamReader(ogrenciDers_10); o10 = ogrenciDers__10.ReadLine(); ogrenciDers__10.Close();
+            FileStream ogrenciDers_11 = new FileStream("ogrenciDers11.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__11 = new StreamReader(ogrenciDers_11); o11 = ogrenciDers__11.ReadLine(); ogrenciDers__11.Close();
+            FileStream ogrenciDers_12 = new FileStream("ogrenciDers12.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__12 = new StreamReader(ogrenciDers_12); o12 = ogrenciDers__12.ReadLine(); ogrenciDers__12.Close();
+
+            FileStream ogretmenDers_1 = new FileStream("ogretmenDers1.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__1 = new StreamReader(ogretmenDers_1); O1 = ogretmenDers__1.ReadLine(); ogretmenDers__1.Close();
+            FileStream ogretmenDers_2 = new FileStream("ogretmenDers2.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__2 = new StreamReader(ogretmenDers_2); O2 = ogretmenDers__2.ReadLine(); ogretmenDers__2.Close();
+            FileStream ogretmenDers_3 = new FileStream("ogretmenDers3.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__3 = new StreamReader(ogretmenDers_3); O3 = ogretmenDers__3.ReadLine(); ogretmenDers__3.Close();
+            FileStream ogretmenDers_4 = new FileStream("ogretmenDers4.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__4 = new StreamReader(ogretmenDers_4); O4 = ogretmenDers__4.ReadLine(); ogretmenDers__4.Close();
+            FileStream ogretmenDers_5 = new FileStream("ogretmenDers5.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__5 = new StreamReader(ogretmenDers_5); O5 = ogretmenDers__5.ReadLine(); ogretmenDers__5.Close();
+            FileStream ogretmenDers_6 = new FileStream("ogretmenDers6.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__6 = new StreamReader(ogretmenDers_6); O6 = ogretmenDers__6.ReadLine(); ogretmenDers__6.Close();
+            FileStream ogretmenDers_7 = new FileStream("ogretmenDers7.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__7 = new StreamReader(ogretmenDers_7); O7 = ogretmenDers__7.ReadLine(); ogretmenDers__7.Close();
+            FileStream ogretmenDers_8 = new FileStream("ogretmenDers8.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__8 = new StreamReader(ogretmenDers_8); O8 = ogretmenDers__8.ReadLine(); ogretmenDers__8.Close();
+            FileStream ogretmenDers_9 = new FileStream("ogretmenDers9.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__9 = new StreamReader(ogretmenDers_9); O9 = ogretmenDers__9.ReadLine(); ogretmenDers__9.Close();
+            FileStream ogretmenDers_10 = new FileStream("ogretmenDers10.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__10 = new StreamReader(ogretmenDers_10); O10 = ogretmenDers__10.ReadLine(); ogretmenDers__10.Close();
+            FileStream ogretmenDers_11 = new FileStream("ogretmenDers11.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__11 = new StreamReader(ogretmenDers_11); O11 = ogretmenDers__11.ReadLine(); ogretmenDers__11.Close();
+            FileStream ogretmenDers_12 = new FileStream("ogretmenDers12.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__12 = new StreamReader(ogretmenDers_12); O12 = ogretmenDers__12.ReadLine(); ogretmenDers__12.Close();
+
+
+            FileStream tenefusDers_1 = new FileStream("tenefusDers1.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__1 = new StreamReader(tenefusDers_1); t1 = tenefusDers__1.ReadLine(); tenefusDers__1.Close();
+            FileStream tenefusDers_2 = new FileStream("tenefusDers2.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__2 = new StreamReader(tenefusDers_2); t2 = tenefusDers__2.ReadLine(); tenefusDers__2.Close();
+            FileStream tenefusDers_3 = new FileStream("tenefusDers3.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__3 = new StreamReader(tenefusDers_3); t3 = tenefusDers__3.ReadLine(); tenefusDers__3.Close();
+            FileStream tenefusDers_4 = new FileStream("tenefusDers4.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__4 = new StreamReader(tenefusDers_4); t4 = tenefusDers__4.ReadLine(); tenefusDers__4.Close();
+            FileStream tenefusDers_5 = new FileStream("tenefusDers5.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__5 = new StreamReader(tenefusDers_5); t5 = tenefusDers__5.ReadLine(); tenefusDers__5.Close();
+            FileStream tenefusDers_6 = new FileStream("tenefusDers6.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__6 = new StreamReader(tenefusDers_6); t6 = tenefusDers__6.ReadLine(); tenefusDers__6.Close();
+            FileStream tenefusDers_7 = new FileStream("tenefusDers7.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__7 = new StreamReader(tenefusDers_7); t7 = tenefusDers__7.ReadLine(); tenefusDers__7.Close();
+            FileStream tenefusDers_8 = new FileStream("tenefusDers8.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__8 = new StreamReader(tenefusDers_8); t8 = tenefusDers__8.ReadLine(); tenefusDers__8.Close();
+            FileStream tenefusDers_9 = new FileStream("tenefusDers9.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__9 = new StreamReader(tenefusDers_9); t9 = tenefusDers__9.ReadLine(); tenefusDers__9.Close();
+            FileStream tenefusDers_10 = new FileStream("tenefusDers10.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__10 = new StreamReader(tenefusDers_10); t10 = tenefusDers__10.ReadLine(); tenefusDers__10.Close();
+            FileStream tenefusDers_11 = new FileStream("tenefusDers11.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__11 = new StreamReader(tenefusDers_11); t11 = tenefusDers__11.ReadLine(); tenefusDers__11.Close();
+            FileStream tenefusDers_12 = new FileStream("tenefusDers12.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__12 = new StreamReader(tenefusDers_12); t12 = tenefusDers__12.ReadLine(); tenefusDers__12.Close();
+
+
 
         }
 
@@ -58,149 +103,154 @@ namespace OkulZilProgramı
             label2.Text = DateTime.Now.ToLongTimeString();
             label3.Text = DateTime.Now.ToLongDateString();
 
-            ses = "C:\\Users\\sbuyu\\OneDrive\\Masaüstü\\OkulZilProgramı\\OkulZilProgramı\\zilSesleri\\Okul_Zili_Öğrenci_Zil_Sesi-(Çayır_Çimen_Geze_Geze).mp3";
+            ses = "Okul_Zili_Öğrenci_Zil_Sesi-(Çayır_Çimen_Geze_Geze).mp3";
 
-            if (textBox1.Text == label2.Text)
+
+
+
+
+            // textBoxlardaki zaman konrtolünü yapar
+            if (o1 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox2.Text == label2.Text)
+            if (o2 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox3.Text == label2.Text)
+            if (o3 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox4.Text == label2.Text)
+            if (o4 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox5.Text == label2.Text)
+            if (o5 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox6.Text == label2.Text)
+            if (o6 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox7.Text == label2.Text)
+            if (o7 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox8.Text == label2.Text)
+            if (o8 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox9.Text == label2.Text)
+            if (o9 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox10.Text == label2.Text)
+            if (o10 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox11.Text == label2.Text)
+            if (o11 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox12.Text == label2.Text)
+            if (o12 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox13.Text == label2.Text)
+            if (O12 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox14.Text == label2.Text)
+            if (O11 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox15.Text == label2.Text)
+            if (O10 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox16.Text == label2.Text)
+            if (O9 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox17.Text == label2.Text)
+            if (O8 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox18.Text == label2.Text)
+            if (O7 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox19.Text == label2.Text)
+            if (O6 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox20.Text == label2.Text)
+            if (O5 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox21.Text == label2.Text)
+            if (O4 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox22.Text == label2.Text)
+            if (O3 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox23.Text == label2.Text)
+            if (O2 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox24.Text == label2.Text)
+            if (O1 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox25.Text == label2.Text)
+            if (t12 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox26.Text == label2.Text)
+            if (t11 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox27.Text == label2.Text)
+            if (t10 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox28.Text == label2.Text)
+            if (t9 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox29.Text == label2.Text)
+            if (t8 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox30.Text == label2.Text)
+            if (t7 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox31.Text == label2.Text)
+            if (t6 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox32.Text == label2.Text)
+            if (t5 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox33.Text == label2.Text)
+            if (t4 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox34.Text == label2.Text)
+            if (t3 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox35.Text == label2.Text)
+            if (t2 == label2.Text)
             {
                 zilCal.URL = ses;
             }
-            if (textBox36.Text == label2.Text)
+            if (t1 == label2.Text)
             {
                 zilCal.URL = ses;
             }
@@ -210,6 +260,7 @@ namespace OkulZilProgramı
 
         private void button4_Click_1(object sender, EventArgs e)
         {
+            // textBoxu kilitleme 
             textBox1.ReadOnly = true;
             textBox2.ReadOnly = true;
             textBox3.ReadOnly = true;
@@ -247,9 +298,11 @@ namespace OkulZilProgramı
             textBox35.ReadOnly = true;
             textBox36.ReadOnly = true;
 
+            //******************************************************************************************************************************************
 
             MessageBox.Show("Kaydedildi", "Dosya Kayıt İslemi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            
+
+            // textBox taki verileri txt dosyalarına aktarma
             StreamWriter ogrenciDers1 = new StreamWriter("ogrenciDers1.txt"); ogrenciDers1.WriteLine(textBox1.Text); ogrenciDers1.Close();
             StreamWriter ogrenciDers2 = new StreamWriter("ogrenciDers2.txt"); ogrenciDers2.WriteLine(textBox2.Text); ogrenciDers2.Close();
             StreamWriter ogrenciDers3 = new StreamWriter("ogrenciDers3.txt"); ogrenciDers3.WriteLine(textBox3.Text); ogrenciDers3.Close();
@@ -291,9 +344,53 @@ namespace OkulZilProgramı
             StreamWriter tenefusDers11 = new StreamWriter("tenefusDers11.txt"); tenefusDers11.WriteLine(textBox26.Text); tenefusDers11.Close();
             StreamWriter tenefusDers12 = new StreamWriter("tenefusDers12.txt"); tenefusDers12.WriteLine(textBox25.Text); tenefusDers12.Close();
 
+            //******************************************************************************************************************************************
+
+            //txt dosyalarındaki veriyi textBoxlara aktarma
+            FileStream ogrenciDers_1 = new FileStream("ogrenciDers1.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__1 = new StreamReader(ogrenciDers_1); o1 = ogrenciDers__1.ReadLine(); ogrenciDers__1.Close();
+            FileStream ogrenciDers_2 = new FileStream("ogrenciDers2.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__2 = new StreamReader(ogrenciDers_2); o2 = ogrenciDers__2.ReadLine(); ogrenciDers__2.Close();
+            FileStream ogrenciDers_3 = new FileStream("ogrenciDers3.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__3 = new StreamReader(ogrenciDers_3); o3 = ogrenciDers__3.ReadLine(); ogrenciDers__3.Close();
+            FileStream ogrenciDers_4 = new FileStream("ogrenciDers4.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__4 = new StreamReader(ogrenciDers_4); o4 = ogrenciDers__4.ReadLine(); ogrenciDers__4.Close();
+            FileStream ogrenciDers_5 = new FileStream("ogrenciDers5.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__5 = new StreamReader(ogrenciDers_5); o5 = ogrenciDers__5.ReadLine(); ogrenciDers__5.Close();
+            FileStream ogrenciDers_6 = new FileStream("ogrenciDers6.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__6 = new StreamReader(ogrenciDers_6); o6 = ogrenciDers__6.ReadLine(); ogrenciDers__6.Close();
+            FileStream ogrenciDers_7 = new FileStream("ogrenciDers7.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__7 = new StreamReader(ogrenciDers_7); o7 = ogrenciDers__7.ReadLine(); ogrenciDers__7.Close();
+            FileStream ogrenciDers_8 = new FileStream("ogrenciDers8.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__8 = new StreamReader(ogrenciDers_8); o8 = ogrenciDers__8.ReadLine(); ogrenciDers__8.Close();
+            FileStream ogrenciDers_9 = new FileStream("ogrenciDers9.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__9 = new StreamReader(ogrenciDers_9); o9 = ogrenciDers__9.ReadLine(); ogrenciDers__9.Close();
+            FileStream ogrenciDers_10 = new FileStream("ogrenciDers10.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__10 = new StreamReader(ogrenciDers_10); o10 = ogrenciDers__10.ReadLine(); ogrenciDers__10.Close();
+            FileStream ogrenciDers_11 = new FileStream("ogrenciDers11.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__11 = new StreamReader(ogrenciDers_11); o11 = ogrenciDers__11.ReadLine(); ogrenciDers__11.Close();
+            FileStream ogrenciDers_12 = new FileStream("ogrenciDers12.txt", FileMode.Open, FileAccess.Read); StreamReader ogrenciDers__12 = new StreamReader(ogrenciDers_12); o12 = ogrenciDers__12.ReadLine(); ogrenciDers__12.Close();
 
 
+            FileStream ogretmenDers_1 = new FileStream("ogretmenDers1.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__1 = new StreamReader(ogretmenDers_1); O1 = ogretmenDers__1.ReadLine(); ogretmenDers__1.Close();
+            FileStream ogretmenDers_2 = new FileStream("ogretmenDers2.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__2 = new StreamReader(ogretmenDers_2); O2 = ogretmenDers__2.ReadLine(); ogretmenDers__2.Close();
+            FileStream ogretmenDers_3 = new FileStream("ogretmenDers3.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__3 = new StreamReader(ogretmenDers_3); O3 = ogretmenDers__3.ReadLine(); ogretmenDers__3.Close();
+            FileStream ogretmenDers_4 = new FileStream("ogretmenDers4.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__4 = new StreamReader(ogretmenDers_4); O4 = ogretmenDers__4.ReadLine(); ogretmenDers__4.Close();
+            FileStream ogretmenDers_5 = new FileStream("ogretmenDers5.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__5 = new StreamReader(ogretmenDers_5); O5 = ogretmenDers__5.ReadLine(); ogretmenDers__5.Close();
+            FileStream ogretmenDers_6 = new FileStream("ogretmenDers6.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__6 = new StreamReader(ogretmenDers_6); O6 = ogretmenDers__6.ReadLine(); ogretmenDers__6.Close();
+            FileStream ogretmenDers_7 = new FileStream("ogretmenDers7.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__7 = new StreamReader(ogretmenDers_7); O7 = ogretmenDers__7.ReadLine(); ogretmenDers__7.Close();
+            FileStream ogretmenDers_8 = new FileStream("ogretmenDers8.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__8 = new StreamReader(ogretmenDers_8); O8 = ogretmenDers__8.ReadLine(); ogretmenDers__8.Close();
+            FileStream ogretmenDers_9 = new FileStream("ogretmenDers9.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__9 = new StreamReader(ogretmenDers_9); O9 = ogretmenDers__9.ReadLine(); ogretmenDers__9.Close();
+            FileStream ogretmenDers_10 = new FileStream("ogretmenDers10.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__10 = new StreamReader(ogretmenDers_10); O10 = ogretmenDers__10.ReadLine(); ogretmenDers__10.Close();
+            FileStream ogretmenDers_11 = new FileStream("ogretmenDers11.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__11 = new StreamReader(ogretmenDers_11); O11 = ogretmenDers__11.ReadLine(); ogretmenDers__11.Close();
+            FileStream ogretmenDers_12 = new FileStream("ogretmenDers12.txt", FileMode.Open, FileAccess.Read); StreamReader ogretmenDers__12 = new StreamReader(ogretmenDers_12); O12 = ogretmenDers__12.ReadLine(); ogretmenDers__12.Close();
 
+
+            FileStream tenefusDers_1 = new FileStream("tenefusDers1.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__1 = new StreamReader(tenefusDers_1); t1 = tenefusDers__1.ReadLine(); tenefusDers__1.Close();
+            FileStream tenefusDers_2 = new FileStream("tenefusDers2.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__2 = new StreamReader(tenefusDers_2); t2 = tenefusDers__2.ReadLine(); tenefusDers__2.Close();
+            FileStream tenefusDers_3 = new FileStream("tenefusDers3.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__3 = new StreamReader(tenefusDers_3); t3 = tenefusDers__3.ReadLine(); tenefusDers__3.Close();
+            FileStream tenefusDers_4 = new FileStream("tenefusDers4.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__4 = new StreamReader(tenefusDers_4); t4 = tenefusDers__4.ReadLine(); tenefusDers__4.Close();
+            FileStream tenefusDers_5 = new FileStream("tenefusDers5.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__5 = new StreamReader(tenefusDers_5); t5 = tenefusDers__5.ReadLine(); tenefusDers__5.Close();
+            FileStream tenefusDers_6 = new FileStream("tenefusDers6.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__6 = new StreamReader(tenefusDers_6); t6 = tenefusDers__6.ReadLine(); tenefusDers__6.Close();
+            FileStream tenefusDers_7 = new FileStream("tenefusDers7.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__7 = new StreamReader(tenefusDers_7); t7 = tenefusDers__7.ReadLine(); tenefusDers__7.Close();
+            FileStream tenefusDers_8 = new FileStream("tenefusDers8.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__8 = new StreamReader(tenefusDers_8); t8 = tenefusDers__8.ReadLine(); tenefusDers__8.Close();
+            FileStream tenefusDers_9 = new FileStream("tenefusDers9.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__9 = new StreamReader(tenefusDers_9); t9 = tenefusDers__9.ReadLine(); tenefusDers__9.Close();
+            FileStream tenefusDers_10 = new FileStream("tenefusDers10.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__10 = new StreamReader(tenefusDers_10); t10 = tenefusDers__10.ReadLine(); tenefusDers__10.Close();
+            FileStream tenefusDers_11 = new FileStream("tenefusDers11.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__11 = new StreamReader(tenefusDers_11); t11 = tenefusDers__11.ReadLine(); tenefusDers__11.Close();
+            FileStream tenefusDers_12 = new FileStream("tenefusDers12.txt", FileMode.Open, FileAccess.Read); StreamReader tenefusDers__12 = new StreamReader(tenefusDers_12); t12 = tenefusDers__12.ReadLine(); tenefusDers__12.Close();
+
+            //******************************************************************************************************************************************
+
+            // textBoxların kenarlıklarını silme
             textBox1.BorderStyle = BorderStyle.None;
             textBox2.BorderStyle = BorderStyle.None;
             textBox3.BorderStyle = BorderStyle.None;
@@ -336,6 +433,8 @@ namespace OkulZilProgramı
         {
             button4.Text = "Kaydet";
 
+
+            // textBoxların kilitlerini açma
             textBox1.ReadOnly = false;
             textBox2.ReadOnly = false;
             textBox3.ReadOnly = false;
@@ -373,6 +472,7 @@ namespace OkulZilProgramı
             textBox35.ReadOnly = false;
             textBox36.ReadOnly = false;
 
+            // textBoxlara kenarlık ekleme
             textBox1.BorderStyle = BorderStyle.Fixed3D;
             textBox2.BorderStyle = BorderStyle.Fixed3D;
             textBox3.BorderStyle = BorderStyle.Fixed3D;
@@ -411,5 +511,9 @@ namespace OkulZilProgramı
             textBox36.BorderStyle = BorderStyle.Fixed3D;
         }
 
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
